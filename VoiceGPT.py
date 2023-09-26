@@ -39,6 +39,7 @@ def speak_text(text):
     engine.say(text)
     engine.runAndWait()
     
+    
 def main():
     while True:
         #wait for the user to say "genius" 
